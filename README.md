@@ -14,5 +14,7 @@ The Swing API is powerful, flexible — and immense. The Swing API has 18 public
 1. javax.swing
 2. javax.swing.event
 
+Swing GUI components are event sources (like a button), and they create an event object when the user interacts (e.g. clicks) with the object.
+
 ### Package java.awt.*
-Contains all the classes for creating user interfaces and for painting graphics and images. Primarily used for events.
+Contains all the classes for creating user interfaces and for painting graphics and images. Primarily used for events and event listeners.
