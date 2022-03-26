@@ -15,6 +15,8 @@ public class SimpleGUI1 implements ActionListener {     // An instance of Simple
         // The button listens for any actionPerformed(), when clicked,that is contained in the class.
         button.addActionListener(this);
         // Adding the button to the JFrame Pane (think of the frame as a window frame and adding things to window pane)
+        // Note that this isn't the way it should be done, as a frame has 5 regions, and you should specify the region.
+            // .add(BorderLayout.CENTER, button); is how it should be.
         frame.getContentPane().add(button);
         // Makes the program quit when you close the window
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
