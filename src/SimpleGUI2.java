@@ -19,7 +19,7 @@ public class SimpleGUI2 implements ActionListener {
         JButton button = new JButton("Change Colors");
         button.addActionListener(this);
 
-        //
+        // Custom class in src - default constructor created by compiler (as I didn't define a constructor in the class) - see pg 249
         MyDrawPanel drawPanel = new MyDrawPanel();
 
         frame.getContentPane().add(BorderLayout.SOUTH, button);
