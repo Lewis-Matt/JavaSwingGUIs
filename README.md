@@ -4,6 +4,9 @@ Head First Java exercises for creating Graphical User Interfaces using Swing GUI
 ## SimpleGUI1
 Single button that listens for a click event, and then changes the text of the button.
 
+## MyDrawPanel
+Examples (non-runnable) of various paintComponent uses
+
 ## Notes
 <hr>
 JFC is short for Java Foundation Classes, which encompass a group of features for building graphical user interfaces (GUIs) and adding rich graphics functionality and interactivity to Java applications.

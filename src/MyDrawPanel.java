@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class MyDrawPanel extends JPanel {
-    // You will never call this yourself:
+    // You will never call the Graphics method yourself:
     public void paintComponent(Graphics g) {
         // Imagine 'g' as a painting machine, you tell it the color and the shape to paint (coordinates and size)
         g.setColor(Color.orange);
