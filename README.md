@@ -5,7 +5,7 @@ Head First Java exercises for creating Graphical User Interfaces using Swing GUI
 Single button that listens for a click event, and then changes the text of the button.
 
 ## MyDrawPanel
-Examples (non-runnable) of various paintComponent uses
+Examples (non-runnable) of various paintComponent uses. For Graphics2D, see pg 366 of Ch 12.
 
 ## Notes
 <hr>
