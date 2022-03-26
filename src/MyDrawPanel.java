@@ -1,17 +1,17 @@
 import javax.swing.*;
 import java.awt.*;
-
+// Called by SimpleGUI2 to create a panel and use the paintComponent method
 public class MyDrawPanel extends JPanel {
-    // You will never call the Graphics method yourself:
     public void paintComponent(Graphics g) {
         // Imagine 'g' as a painting machine, you tell it the color and the shape to paint (coordinates and size)
-        g.setColor(Color.orange);
-        g.fillRect(20, 50, 100, 100);
+        // Fills the entire background of the frame (commented out because using black on line 19)
+//        g.setColor(Color.orange);
+//        g.fillRect(20, 50, 100, 100);
 
-        // Display a jpeg
-        Image image = new ImageIcon("./data/cat.jpeg").getImage();
-        // The x,y coordinates for where top-left corner goes. Relative to the widget (JPanel subclass), not the frame
-        g.drawImage(image, 3, 4, this);
+        // Display a jpeg - Not used in SimpleGUI2, just here for reference
+//        Image image = new ImageIcon("./data/cat.jpeg").getImage();
+//        // The x,y coordinates for where top-left corner goes. Relative to the widget (JPanel subclass), not the frame
+//        g.drawImage(image, 3, 4, this);
 
         // Paint a randomly-colored circle on a black background
         // Fill background with black. x,y is upper-left corner, relative to the panel
@@ -25,6 +25,6 @@ public class MyDrawPanel extends JPanel {
         Color randomColor = new Color(red, green, blue);
         g.setColor(randomColor);
         // x,y is top-left corner offset, width, height (all in pixels)
-        g.fillOval(70, 70, 100, 100);
+        g.fillOval(75, 75, 100, 100);
     }
 }
