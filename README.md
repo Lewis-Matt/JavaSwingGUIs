@@ -4,8 +4,11 @@ Head First Java exercises for creating Graphical User Interfaces using Swing GUI
 ## SimpleGUI1
 Single button that listens for a click event, and then changes the text of the button.
 
+## SimpleGUI2
+Calls paintComponent() each time the button is clicked, randomly changing the color of the circle.
+
 ## MyDrawPanel
-Examples (non-runnable) of various paintComponent uses. For Graphics2D, see pg 366 of Ch 12.
+Examples (non-runnable) of various paintComponent uses. For Graphics2D, see pg 366 of Ch 12. This class is used in SimpleGUI2 (paintComponent).
 
 ## Notes
 <hr>
